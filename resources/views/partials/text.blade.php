@@ -20,6 +20,20 @@
         line-height: 2rem;
         color: whitesmoke;
     }
+    .links{
+            margin-top: 3rem; /* margin collpase i know! */
+            text-align: center
+        }
+        .links > a {
+                
+                color: whitesmoke;
+                padding: 0 25px;
+                font-size: 13px;
+                font-weight: 600;
+                letter-spacing: .1rem;
+                text-decoration: none;
+                text-transform: uppercase;
+            }
 </style>
 <body>
     <main>
@@ -114,6 +128,9 @@
                 Master <br>
                 Master <br>
             </p>
+            <div class="links">
+                <a href="{{ @route('home')}}">Go Home</a>
+            </div>
         </div>
     </main>
 </body>
