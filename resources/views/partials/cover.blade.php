@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>im_a_link</title>
+    <title>image_of_master_of_puppets</title>
 
     <style>
         main{
@@ -26,5 +26,6 @@
             <img src="https://totally80s.com/sites/totally80s.rock.tools/files/styles/site_width_image/public/2020-03/metallica-master-puppets.jpg?itok=m3C1P0SF" alt="master_of_puppets_cover_image">
         </div>
     </main>
+    
 </body>
 </html>

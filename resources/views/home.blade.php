@@ -85,7 +85,10 @@
                 </div>
 
                 <div class="links">
-                    <a href="{{ url('/cover')}}">Master of Puppets</a>
+                    <a href="{{ @route('cover')}}">Master of Puppets cover image</a>
+                </div>
+                <div class="links">
+                    <a href="{{ @route('text')}}">Master of Puppets text</a>
                 </div>
             </div>
         </div>

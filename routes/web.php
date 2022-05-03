@@ -18,5 +18,11 @@ Route::get('/', function () {
 });
 Route::get('/cover', function () {
     return view('partials.cover');
-});
+}) -> name("cover"); 
 
+Route::get('/text', function () {
+    $data= [
+        'title' => 'Master of Puppets',
+    ];
+    return view ('partials.text', $data);
+}) -> name("text");
